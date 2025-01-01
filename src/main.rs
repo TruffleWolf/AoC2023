@@ -1,7 +1,7 @@
 use std::{io, time::Instant};
 
 mod days;
-//mod vec2;
+mod vec2;
 
 
 fn main() {
