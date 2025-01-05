@@ -41,7 +41,7 @@ pub fn north_east()->[i16;2]{
     let n:[i16;2]=[1,-1];
     return n;
 }
-#[allow(dead_code)]
+
 pub fn cardinals()->[[i16;2];4]{
     let c:[[i16;2];4] = [north(),east(),south(),west()];
     return c;
