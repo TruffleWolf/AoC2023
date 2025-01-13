@@ -1,5 +1,6 @@
 
-
+// provides utility when working on 2d grids
+// consider changing from i16 to isize
 
 pub fn north()->[i16;2]{
     let n:[i16;2]=[0,-1];
