@@ -57,3 +57,9 @@ pub fn in_bounds<T>(coords:&[i16;2],grid:&Vec<Vec<T>>)->bool{
     let check:bool = coords[0]>-1 && coords[1]>-1 && coords[0]<grid[0].len()as i16 && coords[1]<grid.len() as i16;
     return check;
 }
+
+pub fn addition(coords:&[i16;2],offset:&[i16;2])->[i16;2]{
+    let new_pos:[i16;2]=[coords[0]+offset[0],coords[1]+offset[1]];
+
+    return new_pos;
+}
